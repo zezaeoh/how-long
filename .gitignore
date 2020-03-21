@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 .idea
+static
 env_*.json

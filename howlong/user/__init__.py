@@ -1,0 +1,1 @@
+default_app_config = 'howlong.user.apps.UserConfig'
