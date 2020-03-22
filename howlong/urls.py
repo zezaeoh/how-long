@@ -20,6 +20,6 @@ from howlong.user import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')),
-    path('', views.home, name="home")
+    path('', views.home, name="home"),
+    path("account/", include("howlong.account.urls"))
 ]

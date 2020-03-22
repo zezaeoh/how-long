@@ -1,5 +1,6 @@
-from allauth.account.models import EmailAddress
-
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
 
-admin.site.unregister(EmailAddress)
+from howlong.user.models import User
+
+admin.site.register(User, UserAdmin)
