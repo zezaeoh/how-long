@@ -6,7 +6,7 @@ django-storages==1.9.1
 djangorestframework==3.11.0
 idna==2.9
 mysqlclient==1.4.6
-pydantic==1.4
+pydantic==1.6.2
 pytz==2019.3
 requests==2.23.0
 sqlparse==0.3.1
